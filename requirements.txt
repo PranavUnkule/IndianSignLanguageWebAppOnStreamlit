@@ -1,0 +1,6 @@
+mediapipe==0.8.11
+numpy==1.23.3
+streamlit==1.15.1
+tensorflow==2.11.0
+tensorflow_gpu==2.10.0
+opencv-python
