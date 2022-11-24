@@ -4,8 +4,8 @@ import tensorflow as tf
 
 
 def load_alexnet():
-    model_dir = 'Models\\AlexNet.json'
-    model_weights_dir = 'Models\\AlexNet_Weights.hdf5'
+    model_dir = 'Models//AlexNet.json'
+    model_weights_dir = 'Models//AlexNet_Weights.hdf5'
     with open(model_dir, 'r') as json_file:
         json_saved_model = json_file.read()
     model = tf.keras.models.model_from_json(json_saved_model)
