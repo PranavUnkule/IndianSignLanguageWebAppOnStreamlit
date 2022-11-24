@@ -63,7 +63,7 @@ def main():
         FRAME_WINDOW = st.image([])
         model = load_alexnet()
         while run:
-            webcam = cv2.VideoCapture(0)
+            webcam = cv2.VideoCapture(-1)
             while webcam.isOpened():
                 # Read feed
                 ret, frame = webcam.read()
